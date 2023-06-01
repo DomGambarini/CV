@@ -11,7 +11,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 .bg-color-work-history {
@@ -19,7 +19,7 @@
 }
 
 .bg-color-contact {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -36,24 +36,6 @@
 
 .ui-menu-color-download {
     background-color: #525252;
-}
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.history-heading,
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -77,6 +59,24 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -235,7 +235,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* ----------------------------------------Three Reasons */
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -243,9 +243,9 @@ footer {
     clear: both;
 }
 
-.personal-info-item .key, 
+.personal-info-item .key,
 .personal-info-item .value {
-    padding: 8px;
+    padding-right: 8px;
     display: inline-block;
 }
 
@@ -263,11 +263,14 @@ footer {
 
 .personal-info-item .key p {
     font-weight: 700;
+}
+
+.personal-info-item .value {
     position: relative;
     width: 60%;
 }
 
-/*--------------------------------------------Skills*/
+/* ----------------------------------------Skills */
 
 .progress {
     position: relative;
@@ -288,11 +291,11 @@ footer {
     margin: 40px 20px;
 }
 
-/*--------------------------------------------Work History*/
+/* ----------------------------------------Work History */
 
 .history-heading {
     color: #fafafa;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
 }
 
 .timeline-item {
@@ -329,14 +332,14 @@ footer {
     left: -6px;
     border-radius: 12px;
     content: '';
-    color: #fafafa;
+    background: #fafafa;
 }
 
 .history-items {
     margin-bottom: 30px;
 }
 
-/* ----------------------------------------Contact Form*/
+/* ----------------------------------------Contact Form */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -358,13 +361,13 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
-/* ----------------------------------------*Media Quieres */
+/* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
     .center-form {
-            padding-top: 30px;
-            min-height: 240px;
-            margin: 0 auto;
-            max-width: 50%;
-        }
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
