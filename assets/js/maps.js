@@ -18,7 +18,7 @@ function initMap() {
       label: labels[i % labels.length],
     });
   });
-  let markerClusterer = MarkerClusterer(map, markers, {
+  let markerClusterer = markerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
